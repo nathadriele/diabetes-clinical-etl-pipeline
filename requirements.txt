@@ -1,0 +1,35 @@
+# =============================================================================
+# sus-diabetes-etl-pipeline - Dependências do Projeto
+# =============================================================================
+# Engenharia de Dados em Saúde Pública - Análise de Diabetes Mellitus no SUS
+# =============================================================================
+
+# --- Download e Coleta de Dados ---
+datasus-dbc>=0.1.2
+requests>=2.31.0
+
+# --- Processamento de Dados ---
+pandas>=2.1.0
+numpy>=1.24.0
+pyarrow>=14.0.0
+
+# --- OpenPyXL para exportação Excel ---
+openpyxl>=3.1.2
+
+# --- Qualidade e Validação ---
+pandera>=0.18.0
+
+# --- Visualização e Dashboard ---
+streamlit>=1.37.0
+plotly>=5.18.0
+matplotlib>=3.8.0
+seaborn>=0.13.0
+
+# --- Testes ---
+pytest>=7.4.0
+pytest-cov>=4.1.0
+
+# --- Utilitários ---
+loguru>=0.7.0
+tqdm>=4.66.0
+python-dotenv>=1.0.0

@@ -1,0 +1,58 @@
+# =============================================================================
+# sus-diabetes-etl-pipeline - .gitignore
+# =============================================================================
+
+# Ambiente virtual
+.venv/
+venv/
+env/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Distribuição
+dist/
+build/
+*.egg-info/
+*.egg
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Dados (preservar estrutura, ignorar conteúdo grande)
+data/raw/*.csv
+data/raw/*.dbc
+data/raw/*.dbf
+data/interim/*.csv
+data/processed/*.csv
+data/processed/*.parquet
+data/processed/*.xlsx
+data/reports/*.csv
+data/reports/*.md
+# Mas manter .gitkeep para estrutura de diretórios
+!data/**/.gitkeep
+
+# Logs
+logs/*.log
+
+# pytest
+.pytest_cache/
+.coverage
+htmlcov/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Ambiente
+.env
